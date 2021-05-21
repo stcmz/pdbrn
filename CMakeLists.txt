@@ -1,4 +1,5 @@
-cmake_minimum_required(VERSION 3.1)
+# Requires cmake v3.15 for MSVC_RUNTIME_LIBRARY
+cmake_minimum_required(VERSION 3.15)
 project(pdbrn LANGUAGES CXX)
 
 # Enforce C++ 17

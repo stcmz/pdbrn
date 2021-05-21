@@ -28,7 +28,7 @@ Compilation from source code
 
 ### Build with CMake
 
-This project uses cross-platform build system CMake to build from source. It detects your environment and decides the most appropriate compiler toolset. The minimum version of CMake required is `3.1`. To build, simply run
+This project uses cross-platform build system CMake to build from source. It detects your environment and decides the most appropriate compiler toolset. The minimum version of CMake required is `3.15`. To build, simply run
 ```
 cmake -B build
 cmake --build build --config Release

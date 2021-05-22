@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 
 # Create the target and add source files
 add_executable(${PROJECT_NAME}
-  main.cpp
+  src/main.cpp
 )
 
 # Setup static linking C++ runtime for GCC and MSVC runtime
